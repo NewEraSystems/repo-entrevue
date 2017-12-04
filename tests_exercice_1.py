@@ -16,11 +16,14 @@ class TestUM(unittest.TestCase):
         self.positive_integer_test_matrix = [
             [0, 0],
             [1, 1],
+            [120, 201],
+            [132, 213],
             [1232, 1322],
             [4321, 4321],
             [7921, 9721],
             [7912, 7921],
             [1579, 1597],
+            [9798, 9879],
         ]
 
         self.negative_integer_test_matrix = [
